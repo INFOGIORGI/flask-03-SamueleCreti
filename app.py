@@ -17,4 +17,4 @@ def scaffale():
     return render_template("dettagliScaffale.html", titolo="Dettagli Scaffale")
 
 if __name__ == '__main__': 
-    app.run(debug=True
+    app.run(debug=True)
