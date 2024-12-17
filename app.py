@@ -12,8 +12,6 @@ def homepage():
 def detail():
     return render_template("detail.html", titolo="Detail", tupla=tupla)
 
-
-
 @app.route("/scaffale/posizione:<nScaffale>")
 def scaffale(nScaffale):
     l=[] #creo una lista vuota
